@@ -12,6 +12,9 @@ console.log('Valore preso dal prompt:', coloreUtente);
 document.getElementById('coloreUtente').innerHTML = coloreUtente;
 
 let datiUtente = nomeUtente + " " + cognomeUtente + " " + coloreUtente + " " + 114;
-console.log('dati complreti:', datiUtente)
+console.log('dati completi:', datiUtente)
 document.getElementById('datiUtente').innerHTML = datiUtente;
- 
+
+let pswUtente = nomeUtente + cognomeUtente + coloreUtente + 114;
+console.log('Password:', pswUtente)
+document.getElementById('pswUtente').innerHTML = pswUtente;
